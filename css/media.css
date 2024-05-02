@@ -1,0 +1,28 @@
+@media screen and (max-width: 1193px) {
+    div#wrapper {
+        width: 400px;
+        height: auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: 230px 320px auto;
+        overflow: hidden;
+    }
+
+    div#wrapper article#wrapper-content {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        place-items: left;
+        gap: 15px;
+    }
+
+    div#wrapper article#wrapper-content div#wrapper-content-tittle h1 {
+        font-size: 1.4rem;
+    }
+
+    div#wrapper article#wrapper-content div#wrapper-content-footer {
+        display: none;
+    }
+
+    div#social {
+        display: flex;
+    }
+}
