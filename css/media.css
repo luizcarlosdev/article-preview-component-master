@@ -1,5 +1,5 @@
 @media screen and (max-width: 1193px) {
-    div#wrapper {
+    div.wrapper {
         width: 400px;
         height: auto;
         grid-template-columns: 1fr;
@@ -7,22 +7,22 @@
         overflow: hidden;
     }
 
-    div#wrapper article#wrapper-content {
+    div.wrapper article.wrapper-content {
         padding-top: 30px;
         padding-bottom: 30px;
         place-items: left;
         gap: 15px;
     }
 
-    div#wrapper article#wrapper-content div#wrapper-content-tittle h1 {
+    div.wrapper article.wrapper-content div.wrapper-content-tittle h1 {
         font-size: 1.4rem;
     }
 
-    div#wrapper article#wrapper-content div#wrapper-content-footer {
+    div.wrapper article.wrapper-content div.wrapper-content-footer {
         display: none;
     }
 
-    div#social {
+    div.social {
         display: flex;
     }
 }
